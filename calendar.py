@@ -1,10 +1,9 @@
-## zee-be-io
-### Program to display calendar of the given month and year
+# Program to display calendar of the given month and year
 
-#### importing calendar module
-```python
+# importing calendar module
 import calendar
-yy = 2021  # year
+
+yy = 2014  # year
 mm = 11    # month
 
 # To take month and year input from the user
@@ -13,8 +12,3 @@ mm = 11    # month
 
 # display the calendar
 print(calendar.month(yy, mm))
-```
-
-### Tools
-- Python3
-- Linux
